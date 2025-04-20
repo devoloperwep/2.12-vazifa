@@ -295,12 +295,14 @@ main {
   opacity: 0;
 }
 .open__list {
+  display: flex;
+  align-items: center;
   position: absolute;
   top: 0;
   right: 0;
   background-color: var(--rapture-blue);
   height: 100vh;
-  width: 25vh;
+  width: 45vh;
   z-index: 1;
   padding-top: 5rem;
   transition: 0.5s;
