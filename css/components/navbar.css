@@ -1,0 +1,16 @@
+/* nav */
+.nav__list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.nav__item-link {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  transition: 0.3s;
+}
+.nav__item-link:hover {
+  opacity: 0.6;
+}
